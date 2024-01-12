@@ -1,0 +1,227 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+																				//////////DBO ANIMAL´S//////////
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  EVENTS.XML  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+<<<<<  DBO_DIL  >>>>>
+
+	<event name="AnimalDil">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_dbo_dil"/>
+        </children>
+    </event>
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+<<<<<  DBO_SPIDER  >>>>>
+
+		///NamalskFärbung(Rot,Weiß)///
+
+	<event name="AnimalSpiderRW">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_dbo_spider"/>
+        </children>
+    </event>
+
+		///Klein,Braun///
+
+	<event name="AnimalSpiderSmall">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_dbo_spiderb"/>
+        </children>
+    </event>
+
+		///MutterSpinne,Braun(Groß!!!)///
+
+	<event name="AnimalSpiderMother">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_dbo_spiderMomma"/>
+        </children>
+    </event>
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+<<<<<  DBO_RAPTOR  >>>>>
+
+		///Baby,Braun///
+
+	<event name="AnimalRaptorbaby">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="dbo_raptorB"/>
+        </children>
+    </event>
+
+		///JungTier///
+
+	<event name="AnimalRaptorjung">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="dbo_raptor"/>
+        </children>
+    </event>
+
+		///Teenager///
+
+	<event name="AnimalRaptorteen">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="dbo_raptorblue"/>
+        </children>
+    </event>
+
+		///ErwachsenesTier///
+
+	<event name="AnimalRaptoradult">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="dbo_idrex"/>
+        </children>
+    </event>
+
+		///Triceratops///
+
+	<event name="AnimalTriceratops">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="dbo_tricero"/>
+        </children>
+    </event>
+
+		///T-Rex///
+
+	<event name="AnimalTrex">
+        <waves>0</waves>
+        <nominal>11</nominal>
+        <min>7</min>
+        <max>10</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="dbo_trex"/>
+        </children>
+    </event>
+______________________________________________________________________________________________________________________________________________________________________________________________________

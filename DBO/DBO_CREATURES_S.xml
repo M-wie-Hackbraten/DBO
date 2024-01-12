@@ -1,0 +1,331 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+																				//////////DBO CREATURES´S//////////
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  TYPES.XML  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+<<<<<  BloodSucker  >>>>>
+
+	<type name="ZmbM_BloodSucker_normal">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_normalR">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_medium">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_mediumR">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_hard">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_hardR">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_superhard">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_superhardR">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_superwierd">
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+	<type name="ZmbM_BloodSucker_Alien">	++++++++++EXPERIMENTEL++++++++++
+		<nominal>0</nominal>
+		<lifetime>1800</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+	</type>
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  EVENTS.XML  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+	<event name="InfectedBloodSuckerNormal">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_normal"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerNormalR">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_normalR"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerMedium">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_medium"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerMediumR">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_mediumR"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerHard">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_hard"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerHardR">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_hardR"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerSuperhard">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_superhard"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerSuperhardR">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_superhardR"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerSuperwierd">
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_superwierd"/>
+        </children>
+    </event>
+	<event name="InfectedBloodSuckerAlien">	++++++++++EXPERIMENTEL++++++++++
+        <waves>0</waves>
+        <nominal>PLATZHALTER</nominal>
+        <min>PLATZHALTER</min>
+        <max>PLATZHALTER</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="0" type="ZmbM_BloodSucker_Alien"/>
+        </children>
+    </event>
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CFGEVENTSPAWN.XML  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+	<event name="InfectedBloodSuckerNormal" />
+	<event name="InfectedBloodSuckerNormalR" />
+	<event name="InfectedBloodSuckerMedium" />
+	<event name="InfectedBloodSuckerMediumR" />
+	<event name="InfectedBloodSuckerHard" />
+	<event name="InfectedBloodSuckerHardR" />
+	<event name="InfectedBloodSuckerSuperhard" />
+	<event name="InfectedBloodSuckerSuperhardR" />
+	<event name="InfectedBloodSuckerSuperwierd" />
+	<event name="InfectedBloodSuckerAlien" />	++++++++++EXPERIMENTEL++++++++++
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ZOMBIE_TERRITORIES.XML  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+	<zone name="InfectedBloodSuckerNormal"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerNormalR"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerMedium"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerMediumR"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerHard"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerHardR"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerSuperhard"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerSuperhardR"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerSuperwierd"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>
+	<zone name="InfectedBloodSuckerAlien"smin="0" smax="0" dmin="PLATZHALTER" dmax="PLATZHALTER" x="PLATZHALTER" z="PLATZHALTER" r="20"/>	++++++++++EXPERIMENTEL++++++++++
+_____________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

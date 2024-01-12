@@ -1,0 +1,70 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+																				//////////DBO ANIMAL´S//////////
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  CFGENVIRONMENT.XML  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+<<<<<  DBO_DIL  >>>>>
+
+		<file path="env/dil_territories.xml" />
+		
+		<territory type="Herd" name="Dil" behavior="DZWolfGroupBeh">
+			<file usable="dil_territories" />
+		</territory>
+______________________________________________________________________________________________________________________________________________________________________________________________________
+<<<<<  DBO_SPIDER  >>>>>
+
+		<file path="env/spiderrw_territories.xml" />			+NamlskFärbung(Rot,Weiß)
+		<file path="env/spidersmall_territories.xml" />			+Klein,Braun
+		<file path="env/spidermother_territories.xml" />		+Groß;Braun
+---------------------------------------------------------------------------------------------------------------
+		<territory type="Herd" name="SpiderRW" behavior="DZWolfGroupBeh">			+NamlskFärbung(Rot,Weiß)
+			<file usable="spiderrw_territories" />
+		</territory>
+
+		<territory type="Herd" name="SpiderSmall" behavior="DZWolfGroupBeh">		+Klein,Braun
+			<file usable="spidersmall_territories" />
+		</territory>
+
+		<territory type="Herd" name="SpiderMother" behavior="DZWolfGroupBeh">		+Groß;Braun
+			<file usable="spidermother_territories" />
+		</territory>
+______________________________________________________________________________________________________________________________________________________________________________________________________
+<<<<<  DBO_RAPTOR  >>>>>
+
+		<file path="env/raptorbaby_territories.xml" />			+BabyTier,Braun
+		<file path="env/raptorjung_territories.xml" />			+JungTier,Braun
+		<file path="env/raptorteen_territories.xml" />			+Teenager,Blau
+		<file path="env/raptoradult_territories.xml" />			+ErwachsenesTier,Grau
+		<file path="env/trex_territories.xml" />				+T-Rex !!!
+		<file path="env/tricero_territories.xml" />				+Triceratops;Grün
+______________________________________________________________________________________________________________________________________________________________________________________________________
+
+		<territory type="Herd" name="Raptorbaby" behavior="DZWolfGroupBeh">				+BabyTier,Braun
+			<file usable="raptorbaby_territories" />
+		</territory>
+
+		<territory type="Herd" name="Raptorjung" behavior="DZWolfGroupBeh">				+JungTier,Braun
+			<file usable="raptorjung_territories" />
+		</territory>
+
+		<territory type="Herd" name="Raptorteen" behavior="DZWolfGroupBeh">				+Teenager,Blau
+			<file usable="raptorteen_territories" />
+		</territory>
+
+		<territory type="Herd" name="Raptoradult" behavior="DZWolfGroupBeh">			+ErwachsenesTier,Grau
+			<file usable="raptoradult_territories" />
+		</territory>
+
+		<territory type="Herd" name="Trex" behavior="DZWolfGroupBeh">					+T-Rex !!!
+			<file usable="trex_territories" />
+		</territory>
+
+		<territory type="Herd" name="Triceratops" behavior="DZWolfGroupBeh">			+Triceratops;Grün
+			<file usable="tricero_territories" />
+		</territory>
